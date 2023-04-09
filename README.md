@@ -1,7 +1,7 @@
 # Olá, meu nome é Lizandro!
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Lizandro-melo&show_icons=true&theme=radical)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Lizandro-melo&hide_progress=false&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Lizandro GitHub stats](https://github-readme-stats.vercel.app/api?username=Lizandro-melo&show_icons=true&theme=radical)](https://github.com/Lizandro-melo/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Lizandro-melo&hide_progress=false&theme=radical)](https://github.com/Lizandro-melo/github-readme-stats)
 ## Sobre
 Sou estudante de programação, atualmente estou graduanado analise e desenvolvimento de sistemas na UNISUAM.
 
