@@ -1,14 +1,14 @@
 # Olá, meu nome é Lizandro!
 
-...
+<div>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Lizandro-melo&show_icons=true&theme=slateorange"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lizandro-melo&layout=compact&theme=slateorange"/>
+</div>
 
-## Sobre
-Sou estudante de programação, atualmente estou graduanado analise e desenvolvimento de sistemas na UNISUAM.
+<div style="display:flex"><br>
+  <img align="center" alt="Lizandro.js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Lizandro.js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Lizandro-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Lizandro-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 
-
-Aqui você verá alguns projetos, muitos para o meu proprio aprendizado.
-
-<code><img height="20" alt="javascript" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="20" alt="html" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-<code><img height="20" alt="css" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-<code><img height="20" alt="php" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png"></code>
+</div>
