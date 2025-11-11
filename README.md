@@ -1,22 +1,46 @@
-# Olá, Bem vindo ao meu Github!
+### <div align="center">Olá 👋, Meu nome é José Lizandro, Desenvolvedor.</div>  
+  
+
+- 💻 Apaixonado por tecnologia e desenvolvimento de software, atuo como desenvolvedor full stack com foco em Java e JavaScript.
+
+- 🚀 Tenho como meta criar softwares e produtos digitais próprios, além de trabalhar com freelance pra expandir meus projetos e experiências.
+
+- 🌍 Moro no Rio de Janeiro, na Maré, e curto transformar ideias em soluções reais que impactem o dia a dia das pessoas.
+
+- 📚 Sempre aprendendo novas tecnologias — Backend e Frontend moderno com React/Next.js e mobile com React Native.
+  
+
+<br/>  
+
+## Tecnologias que eu uso no meu dia:
+
+![My Skills](https://skillicons.dev/icons?i=nextjs,react,tailwind,ts,git,vercel,java,linux,postman,postgres,prisma,vercel,py,selenium,spring)
+
+## Estudando no momento:
+
+![My Skills](https://skillicons.dev/icons?i=jest,firebase)
 
 
-### Sobre
-#### Sou um desenvolvedor full-stack voltado para a criação de sistemas.
-#### Por aqui você verá algumas das minhas criações e ideias.
+<br/>  
 
 
-<div style="display:flex; flex-direction:column;">
-<div style="display:flex; margin-bottom: 30px;">
-  <img height="130em" style="margin: 0 20px 0 0" src="https://github-readme-stats.vercel.app/api?username=Lizandro-melo&show_icons=false&theme=dark"/>
-  <img height="130em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lizandro-melo&layout=compact&theme=dark"/>
-</div>
+## Entre em contato comigo:
+<a href="https://www.linkedin.com/in/joselizandro-dev" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
+<a href="https://www.instagram.com/lizandro.melo0" target="_blank">
+<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
+</a>  
+  
 
-<div style="display:flex">
-  <img align="center" alt="Lizandro-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
-  <img align="center" alt="Lizandro-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg">
-  <img align="center" alt="Lizandro-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg">
-  <img align="center" alt="Lizandro-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg">
-  <img align="center" alt="Lizandro-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg">
-</div>
-</div>
+<br/>  
+
+
+## Github Status:  
+<table><tr><td valign="top" width="100%">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lizandro-melo&hide_border=true&layout=compact&exclude_repo=projetoTelecall" align="left" style="width: 100%" />
+
+</td></tr></table>  
+
+<br/>
