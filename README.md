@@ -1,46 +1,53 @@
-### <div align="center">Olá 👋, Meu nome é José Lizandro, Desenvolvedor.</div>  
-  
+### <div align="center">Olá 👋, eu sou o José Lizandro</div>
 
-- 💻 Apaixonado por tecnologia e desenvolvimento de software, atuo como desenvolvedor full stack com foco em Java e JavaScript.
+<div align="center">Suporte de TI e Desenvolvimento · Java · Python · SQL · Automação</div>
 
-- 🚀 Tenho como meta criar softwares e produtos digitais próprios, além de trabalhar com freelance pra expandir meus projetos e experiências.
+<br/>
 
-- 🌍 Moro no Rio de Janeiro, na Maré, e curto transformar ideias em soluções reais que impactem o dia a dia das pessoas.
+- 💻 Profissional de TI formado em Análise e Desenvolvimento de Sistemas (UNISUAM), unindo suporte corporativo, automação e desenvolvimento.
+- ⚙️ Atuo no suporte N1 a N3 da Icatu Seguros pela FixConsulting, onde automatizei rotinas com RPA, chatbot e Power Automate.
+- 🧱 Desenvolvi a intranet corporativa da Quality Ambiental (HelpDesk, estoque e RH) com React/Next.js e Java Spring Boot.
+- 🚀 Fundei a Controll, onde desenvolvo sistemas SaaS (agendamento, gestão de academias e painel comercial) em Django e Next.js.
+- 🌍 Rio de Janeiro, RJ. Aberto a vagas de Desenvolvedor Back-end, Analista de Sistemas e automação.
 
-- 📚 Sempre aprendendo novas tecnologias — Backend e Frontend moderno com React/Next.js e mobile com React Native.
-  
+<br/>
 
-<br/>  
+## Tecnologias que uso
 
-## Tecnologias que eu uso no meu dia:
+![Minhas tecnologias](https://skillicons.dev/icons?i=java,spring,py,django,postgres,mysql,redis,nextjs,react,ts,tailwind,prisma,docker,nginx,git,linux,selenium,postman,vercel)
 
-![My Skills](https://skillicons.dev/icons?i=nextjs,react,tailwind,ts,git,vercel,java,linux,postman,postgres,prisma,vercel,py,selenium,spring)
+<br/>
 
-## Estudando no momento:
+## Projetos em destaque
 
-![My Skills](https://skillicons.dev/icons?i=jest,firebase)
+| Projeto | Stack | Links |
+|---|---|---|
+| Sistema de Gestão de Frota | Next.js, TypeScript, Prisma, PostgreSQL | [Demo](https://controll-inky.vercel.app) · [Código](https://github.com/Lizandro-melo/controll-veiculos) |
+| Sistema de Pedidos / Delivery | Next.js, TypeScript | [Demo](https://delivery-eta-lyart.vercel.app) · [Código](https://github.com/Lizandro-melo/delivery) |
+| WebSystem (intranet: HelpDesk, estoque e RH) | Next.js, Java Spring Boot, Spring Security, JWT, MySQL | [Código](https://github.com/Lizandro-melo/WebSystem) |
 
+<br/>
 
-<br/>  
+## Contato
 
-
-## Entre em contato comigo:
-<a href="https://www.linkedin.com/in/joselizandro-dev" target="_blank">
+<a href="https://www.linkedin.com/in/lizandromelo/" target="_blank">
 <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
+<a href="mailto:lizandro.melllo@gmail.com">
+<img src=https://img.shields.io/badge/email-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white alt=email style="margin-bottom: 5px;" />
 </a>
 <a href="https://www.instagram.com/lizandro.melo0" target="_blank">
 <img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
-</a>  
-  
+</a>
 
-<br/>  
+<br/>
 
+## GitHub Status
 
-## Github Status:  
 <table><tr><td valign="top" width="100%">
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lizandro-melo&hide_border=true&layout=compact&exclude_repo=projetoTelecall" align="left" style="width: 100%" />
 
-</td></tr></table>  
+</td></tr></table>
 
 <br/>
