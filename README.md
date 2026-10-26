@@ -1,53 +1,98 @@
-### <div align="center">Olá 👋, eu sou o José Lizandro</div>
+<div align="center">
 
-<div align="center">Suporte de TI e Desenvolvimento · Java · Python · SQL · Automação</div>
+# Lizandro Melo
 
-<br/>
+**Desenvolvedor Back-end · Python/Django · Next.js · Automação**
 
-- 💻 Profissional de TI formado em Análise e Desenvolvimento de Sistemas (UNISUAM), unindo suporte corporativo, automação e desenvolvimento.
-- ⚙️ Atuo no suporte N1 a N3 da Icatu Seguros pela FixConsulting, onde automatizei rotinas com RPA, chatbot e Power Automate.
-- 🧱 Desenvolvi a intranet corporativa da Quality Ambiental (HelpDesk, estoque e RH) com React/Next.js e Java Spring Boot.
-- 🚀 Fundei a Controll, onde desenvolvo sistemas SaaS (agendamento, gestão de academias e painel comercial) em Django e Next.js.
-- 🌍 Rio de Janeiro, RJ. Aberto a vagas de Desenvolvedor Back-end, Analista de Sistemas e automação.
+Fundador da Controll — software de gestão para pequenos negócios brasileiros
 
 <br/>
 
-## Tecnologias que uso
+<a href="https://www.linkedin.com/in/lizandromelo/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:lizandro.melllo@gmail.com"><img src="https://img.shields.io/badge/E--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail" /></a>
+<a href="https://agenda.controll.dev.br"><img src="https://img.shields.io/badge/Controll_Agenda-0F172A?style=for-the-badge" alt="Controll Agenda" /></a>
+<a href="https://fit.controll.dev.br"><img src="https://img.shields.io/badge/Controll_Fit-0F172A?style=for-the-badge" alt="Controll Fit" /></a>
 
-![Minhas tecnologias](https://skillicons.dev/icons?i=java,spring,py,django,postgres,mysql,redis,nextjs,react,ts,tailwind,prisma,docker,nginx,git,linux,selenium,postman,vercel)
+</div>
 
 <br/>
 
-## Projetos em destaque
+## Sobre
 
-| Projeto | Stack | Links |
-|---|---|---|
-| Sistema de Gestão de Frota | Next.js, TypeScript, Prisma, PostgreSQL | [Demo](https://controll-inky.vercel.app) · [Código](https://github.com/Lizandro-melo/controll-veiculos) |
-| Sistema de Pedidos / Delivery | Next.js, TypeScript | [Demo](https://delivery-eta-lyart.vercel.app) · [Código](https://github.com/Lizandro-melo/delivery) |
-| WebSystem (intranet: HelpDesk, estoque e RH) | Next.js, Java Spring Boot, Spring Security, JWT, MySQL | [Código](https://github.com/Lizandro-melo/WebSystem) |
+Vim da operação de TI e hoje desenvolvo produto. Passei anos em suporte N1 a N3, administração de infraestrutura (Active Directory, Windows Server, KACE) e automação de processos (RPA, Power Automate, chatbots) antes de migrar para o desenvolvimento de software.
+
+Hoje construo sistemas SaaS multi-tenant em **Python/Django** e **Next.js**, com Celery, Redis e PostgreSQL, empacotados em Docker e validados por CI. Fundei a **Controll**, que mantém dois produtos: agendamento online para prestadores de serviço e gestão para academias.
+
+- **Formação:** Análise e Desenvolvimento de Sistemas, UNISUAM
+- **Certificações:** trilhas de Java, JavaScript, front-end e back-end pela Alura
+- **Localização:** Rio de Janeiro, RJ
+- **Busco:** posições de Desenvolvedor Back-end ou Full-stack, e projetos de automação e integração
+
+<br/>
+
+## Produtos
+
+### Controll Agenda
+
+Agendamento online para quem atende com hora marcada: barbearias, salões, clínicas e profissionais autônomos, inclusive com atendimento em domicílio. O cliente marca sozinho em uma página do negócio e o prestador deixa de organizar a agenda pelo WhatsApp.
+
+**[agenda.controll.dev.br](https://agenda.controll.dev.br)**
+
+- Agenda baseada na duração real do serviço, somada aos adicionais, com grade e folgas por profissional.
+- Regra central: o sistema não aceita dois agendamentos no mesmo horário do mesmo profissional.
+- Confirmações e lembretes automáticos por e-mail ou WhatsApp.
+- Cobrança de multa por falta e pagamento no local ou pelo site, via Asaas.
+- Atendimento em domicílio, com taxa de deslocamento por bairro.
+- Página própria com a marca do negócio e área do cliente sem senha, com confirmação do telefone por código.
+
+`Django` `Django REST Framework` `Celery` `Redis` `Next.js` `React` `Tailwind` `Asaas` `Docker`
+
+<br/>
+
+### Controll Fit
+
+CRM, vendas e operação diária para academias independentes. Foi desenhado para academias de uma unidade, com 100 a 800 alunos.
+
+**[fit.controll.dev.br](https://fit.controll.dev.br)**
+- CRM com funil kanban, leads, campanhas e automações de follow-up, boas-vindas e reativação.
+- Ponto de venda, planos, serviços agendáveis com crédito de uso e cobranças via Asaas (PIX, boleto e cartão).
+- Agenda de turmas e de serviços, com controle de vagas por sessão e presença.
+- Integração com WhatsApp (Evolution API) e e-mail, com SMTP por tenant e senha cifrada em repouso.
+- Multi-tenant com permissões por papel (RBAC), JWT com rotação e blacklist, e throttling por escopo.
+- Mais de 1.700 testes automatizados entre backend e frontend.
+
+`Django` `Django REST Framework` `Celery` `PostgreSQL` `Redis` `Next.js` `React` `TypeScript` `Evolution API` `Asaas` `Docker` `Nginx`
+
+<br/>
+
+## Decisões de engenharia
+
+Pontos em que os dois produtos exigiram escolhas técnicas deliberadas:
+
+| Problema | Abordagem |
+|---|---|
+| Dois clientes tentando o mesmo horário | Bloqueio transacional (`select_for_update`) na criação do agendamento, com regras validadas em ordem |
+| Reenvio de requisição duplicando cobrança ou crédito | Idempotência verificada antes do débito |
+| Vaga e crédito do aluno são coisas diferentes | Eixos separados: cancelar fora do prazo libera o horário, mas consome o crédito |
+| Dados de academias diferentes no mesmo banco | Multi-tenant com isolamento por chave estrangeira, permissões fail-closed e testes de isolamento |
+| Decisões que se perdem com o tempo | Registro de decisões (ADR), roadmap e log de tarefas versionados junto com o código |
+
+<br/>
+
+## Stack
+
+| | |
+|---|---|
+| **Back-end** | Python, Django, Django REST Framework, Celery, Java, Spring Boot |
+| **Front-end** | TypeScript, JavaScript, React, Next.js, Tailwind CSS |
+| **Dados** | PostgreSQL, MySQL, Redis, Pandas |
+| **Infraestrutura** | Docker, Nginx, GitHub Actions, Linux, Active Directory, Windows Server |
+| **Automação** | Power Automate, Selenium, RPA, chatbots, integrações via API |
 
 <br/>
 
 ## Contato
 
-<a href="https://www.linkedin.com/in/lizandromelo/" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>
-<a href="mailto:lizandro.melllo@gmail.com">
-<img src=https://img.shields.io/badge/email-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white alt=email style="margin-bottom: 5px;" />
-</a>
-<a href="https://www.instagram.com/lizandro.melo0" target="_blank">
-<img src=https://img.shields.io/badge/instagram-%23000000.svg?&style=for-the-badge&logo=instagram&logoColor=white alt=instagram style="margin-bottom: 5px;" />
-</a>
+Aberto a conversas sobre oportunidades, projetos de automação e integração de sistemas.
 
-<br/>
-
-## GitHub Status
-
-<table><tr><td valign="top" width="100%">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lizandro-melo&hide_border=true&layout=compact&exclude_repo=projetoTelecall" align="left" style="width: 100%" />
-
-</td></tr></table>
-
-<br/>
+[LinkedIn](https://www.linkedin.com/in/lizandromelo/) · [lizandro.melllo@gmail.com](mailto:lizandro.melllo@gmail.com)
