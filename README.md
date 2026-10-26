@@ -19,9 +19,9 @@ Fundador da Controll — software de gestão para pequenos negócios brasileiros
 
 ## Sobre
 
-Vim da operação de TI e hoje desenvolvo produto. Passei anos em suporte N1 a N3, administração de infraestrutura (Active Directory, Windows Server, KACE) e automação de processos (RPA, Power Automate, chatbots) antes de migrar para o desenvolvimento de software.
+Atuo no suporte N1 a N3 da Icatu Seguros, pela FixConsulting, onde automatizei rotinas com RPA, chatbot e Power Automate. Minha base inclui também administração de infraestrutura (Active Directory, Windows Server, KACE), e em paralelo desenvolvo produto próprio.
 
-Hoje construo sistemas SaaS multi-tenant em **Python/Django** e **Next.js**, com Celery, Redis e PostgreSQL, empacotados em Docker e validados por CI. Fundei a **Controll**, que mantém dois produtos: agendamento online para prestadores de serviço e gestão para academias.
+Construo sistemas SaaS multi-tenant em **Python/Django** e **Next.js**, com Celery, Redis e PostgreSQL, empacotados em Docker e validados por CI. Fundei a **Controll**, que mantém dois produtos: agendamento online para prestadores de serviço e gestão para academias.
 
 - **Formação:** Análise e Desenvolvimento de Sistemas, UNISUAM
 - **Certificações:** trilhas de Java, JavaScript, front-end e back-end pela Alura
@@ -53,7 +53,7 @@ Agendamento online para quem atende com hora marcada: barbearias, salões, clín
 
 CRM, vendas e operação diária para academias independentes. Foi desenhado para academias de uma unidade, com 100 a 800 alunos.
 
-**[fit.controll.dev.br](https://fit.controll.dev.br)**
+**Status:** em desenvolvimento · **[fit.controll.dev.br](https://fit.controll.dev.br)**
 - CRM com funil kanban, leads, campanhas e automações de follow-up, boas-vindas e reativação.
 - Ponto de venda, planos, serviços agendáveis com crédito de uso e cobranças via Asaas (PIX, boleto e cartão).
 - Agenda de turmas e de serviços, com controle de vagas por sessão e presença.
